@@ -1,8 +1,8 @@
 spring:
   datasource:
-    url: ${JDBC_DATABASE_URL:jdbc:postgresql://localhost:5432/SpringBatchProject}
-    username: ${JDBC_DATABASE_USERNAME:postgres}
-    password: ${JDBC_DATABASE_PASSWORD:<<YOUR_PASSWORD>>}
+    url: ${JDBC_DATABASE_URL:jdbc:postgresql://dpg-cm02ev5a73kc73bv087g-a.frankfart-postgres.render.com:5432/springbatch}
+    username: ${JDBC_DATABASE_USERNAME:root}
+    password: ${JDBC_DATABASE_PASSWORD:TbfT7bogjER4JhwgXiLxr4MQnZ60elkF}
     dbcp2:
       max-wait-millis: 30000
       validation-query: select 1
